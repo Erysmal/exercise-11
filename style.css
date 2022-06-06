@@ -1,0 +1,97 @@
+body {
+    background-color:black;
+    margin:0;
+}
+h1 {
+  color:white;
+}
+#grid-container {
+    margin-bottom:50px;
+    display:grid;
+    width:100%;
+    grid-template-columns:200px 75px;
+    
+}
+.grid-list {
+    background-color:lime;
+}
+.grid-row {
+    background-color:yellow;
+}
+/**** 11b *****/
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns:50px 1fr 75px;
+  margin-bottom: 50px;
+}
+.grid-1 {
+  background-color:lightblue;
+}
+.grid-2 {
+  background-color:lightpink;
+}
+.grid-3 {
+  background-color: lightblue;
+}
+/***** 11c *****/
+.gridient {
+  display: grid;
+  grid-template-columns:80px 80px 80px 80px;
+  column-gap:10px;
+  row-gap: 10px;
+  margin-bottom:50px;
+}
+.col1, .col2 , .col3, .col4 {
+  background-color: lightpink;
+}
+/******11d*****/
+.container {
+ background-color: white;
+  height: 350px;
+  width: 22.6rem;
+}
+.small-contain {
+  width: 100px;
+  height: 170px;
+  box-shadow: 0.5px 0.5px 2px rgb(96,96,96);
+  border-style: none;
+  border-width: 25px;
+  border-radius: 2px;
+}
+.woman-img {
+  border-radius: 2px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 2px;
+  object-fit: fill;
+}
+.emma-p {
+  margin-left: 3px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.mutual-p {
+  margin-left: 3px;
+  margin-top: 2px;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: rgb(50,35,30);
+  font-weight: 350;
+}
+.friend-button {
+  margin-left: 3px;
+  padding: 4px 7px;
+  border-style: none;
+  border-radius: 2px;
+  color: white;
+  background-color: #4f86f7;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns:100px 100px 100px;
+  align-items: center;
+  column-gap:10px;
+}
